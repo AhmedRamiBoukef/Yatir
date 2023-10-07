@@ -1,0 +1,181 @@
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 1200px) {
+    .header-area {
+        min-height: inherit;
+    }
+    .features {
+        padding-bottom: 40px;
+        margin-bottom: -70px;
+        overflow: hidden;
+    }
+    .about-image.image-1 {
+        margin-bottom: -120px;
+    }
+    .header-area .header-image {
+        margin-right: -100px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .header-area .title-box {
+        text-align: center;
+    }
+    .header-area .header-buttons {
+        justify-content: center;
+    }    
+    .feature-box {
+        margin-bottom: 30px;
+    }
+    .info-box {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .info-box .info-icon {
+        position: relative;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+    .call-to-action-area .title-box {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .call-to-action-area .button-white.pull-right {
+        float: none !important;
+        margin: auto;
+        width: 200px;
+        text-align: center;
+        display: block;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .price-table {
+        margin-bottom: 30px;
+    }
+    .contact-info {
+        padding: 100px 30px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .header-area .title-box .main-title {
+        font-size: 28px;
+    }
+    .header-area .title-box .desc {
+        font-size: 16px;
+    }
+    .title-box .main-title {
+        font-size: 22px;
+    }
+    .price-area {
+        padding-bottom: 90px;
+    }
+    .question-area .panel-title > a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {    
+    .section-padding-top {
+        padding-top: 100px;
+    }
+    .section-padding-bottom {
+        padding-bottom: 100px;
+    }
+    .section-padding {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .feature-box {
+        text-align: center;
+    }
+    .header-area {
+        padding-top: 100px;
+    }
+    .transparent-menu .mainmenu-area {
+        position: relative;
+    }
+    .header-area .header-image {
+        margin-right: 0;
+        margin-top: 60px;
+    }
+    .about-image.image-1 {
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .about-image.image-1 img {
+        margin-bottom: 0px;
+    }
+    .about-image.image-2 {
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .title-box {
+        text-align: center;
+    }
+    .single-testimonial .desc {
+        font-size: 18px;
+    }
+    .call-to-action-area .side-image {
+        display: none;
+    }
+
+    .call-to-action-area .button-white {
+        float: left !important;
+        margin-top: 30px;
+    }
+
+    .info-box {
+        margin-bottom: 30px;
+    }
+
+    .contact-info > div:last-child .info-box {
+        margin-bottom: 0px;
+    } 
+
+    .subscrie-form .subs-button {
+        float: none;
+        margin-top: 30px;
+        display: block;
+        margin: 30px auto auto;
+    }
+    
+    #scrollUp {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .open-contact-form .contact-form-popup .trigger-button {
+        right: 0px;
+        border: none;
+        bottom: auto;
+        top: 0px;
+    }
+    .testimonial-slider {
+        margin-right: -45px;
+        margin-left: -45px;
+    }
+    .contact-form-popup {
+        padding: 50px 30px;
+    }
+    .input-box {
+        padding: 15px 30px;
+    }
+    .form-box .icon {        
+        right: 3px;
+        top: 7px;
+    }
+    .contact-form .button-red {
+        height: 60px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 480px) {
+    .portfolios > .col-xs-6 {
+        width: 100%;
+    }
+}
